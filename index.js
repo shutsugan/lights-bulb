@@ -167,6 +167,6 @@ app.patch('/api/v1/device/:id', (req, res) => {
 	})
 })
 
-app.listen(3000, () => {
-	debug('API listening on port 3000!')
+app.listen(5000, () => {
+	debug('API listening on port 5000!')
 })
