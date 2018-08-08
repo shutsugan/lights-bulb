@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="Navbar"
+>
+    <div>
+        Monday, 23rd July, 2018
+    </div>
+    <div>
+        11:04 PM
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="Navbar"
+>
+      <div>
+            Monday, 23rd July, 2018
+      </div>
+      <div>
+            11:04 PM
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Navbar
+      date="Monday, 23rd July, 2018"
+      time="11:04 PM"
+/>,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div
+      className="Navbar"
+>
+      <div>
+            Monday, 23rd July, 2018
+      </div>
+      <div>
+            11:04 PM
+      </div>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Navbar
+    date="Monday, 23rd July, 2018"
+    time="11:04 PM"
+/>,
+}
+`;

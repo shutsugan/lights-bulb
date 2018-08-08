@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultInput should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <input
+    className="DefaultInput"
+    defaultValue="test value"
+    disabled={undefined}
+    id={undefined}
+    name="name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    type="text"
+/>,
+  "nodes": Array [
+    <input
+      className="DefaultInput"
+      defaultValue="test value"
+      disabled={undefined}
+      id={undefined}
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+/>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <DefaultInput
+      name="test value"
+/>,
+    "_instance": DefaultInput {
+      "_editName": [Function],
+      "_update": [Function],
+      "context": Object {},
+      "props": Object {
+        "name": "test value",
+      },
+      "refs": Object {},
+      "state": Object {
+        "disabled": undefined,
+        "id": undefined,
+        "name": "test value",
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <input
+      className="DefaultInput"
+      defaultValue="test value"
+      disabled={undefined}
+      id={undefined}
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+/>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <DefaultInput
+    name="test value"
+/>,
+}
+`;

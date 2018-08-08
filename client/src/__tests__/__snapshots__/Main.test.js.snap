@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="Main"
+>
+    <MainTable
+        _getCurrent={[Function]}
+        _update={[Function]}
+        current={Object {}}
+        devices={Array []}
+    />
+    <Slider
+        _getCurrent={[Function]}
+        _update={[Function]}
+        current={Object {}}
+    />
+</div>,
+  "nodes": Array [
+    <div
+      className="Main"
+>
+      <MainTable
+            _getCurrent={[Function]}
+            _update={[Function]}
+            current={Object {}}
+            devices={Array []}
+      />
+      <Slider
+            _getCurrent={[Function]}
+            _update={[Function]}
+            current={Object {}}
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Main />,
+    "_instance": Main {
+      "_fetch": [Function],
+      "_getCurrent": [Function],
+      "_update": [Function],
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "current": Object {},
+        "devices": Array [],
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div
+      className="Main"
+>
+      <MainTable
+            _getCurrent={[Function]}
+            _update={[Function]}
+            current={Object {}}
+            devices={Array []}
+      />
+      <Slider
+            _getCurrent={[Function]}
+            _update={[Function]}
+            current={Object {}}
+      />
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Main />,
+}
+`;

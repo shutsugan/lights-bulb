@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="Slider__container Slider--active"
+>
+    <figure
+        className="Slider"
+        onMouseUp={[Function]}
+    >
+        <span
+            className="Slider__value"
+        >
+            0
+        </span>
+        <span
+            className="Slider__icon"
+        >
+            <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon="sun"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                transform={null}
+            />
+        </span>
+        <span
+            className="Slider__brightness"
+        >
+            Brightness
+        </span>
+        <div
+            className="Slider__circle"
+        >
+            <div
+                className="Slider__knob"
+                unselectable="on"
+            />
+        </div>
+        <canvas
+            className="Slider__progress"
+        />
+        <div
+            className="Slider__inner-circle"
+        />
+    </figure>
+    <div
+        className="arrow-left"
+    />
+</div>,
+  "nodes": Array [
+    <div
+      className="Slider__container Slider--active"
+>
+      <figure
+            className="Slider"
+            onMouseUp={[Function]}
+      >
+            <span
+                  className="Slider__value"
+            >
+                  0
+            </span>
+            <span
+                  className="Slider__icon"
+            >
+                  <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon="sun"
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                  />
+            </span>
+            <span
+                  className="Slider__brightness"
+            >
+                  Brightness
+            </span>
+            <div
+                  className="Slider__circle"
+            >
+                  <div
+                        className="Slider__knob"
+                        unselectable="on"
+                  />
+            </div>
+            <canvas
+                  className="Slider__progress"
+            />
+            <div
+                  className="Slider__inner-circle"
+            />
+      </figure>
+      <div
+            className="arrow-left"
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <Slider
+      current={
+            Object {
+                  "brightness": 0,
+                }
+      }
+/>,
+    "_instance": Slider {
+      "_initSlider": [Function],
+      "_setBrightness": [Function],
+      "_update": [Function],
+      "context": Object {},
+      "props": Object {
+        "current": Object {
+          "brightness": 0,
+        },
+      },
+      "refs": Object {},
+      "state": Object {
+        "brightness": null,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div
+      className="Slider__container Slider--active"
+>
+      <figure
+            className="Slider"
+            onMouseUp={[Function]}
+      >
+            <span
+                  className="Slider__value"
+            >
+                  0
+            </span>
+            <span
+                  className="Slider__icon"
+            >
+                  <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon="sun"
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                  />
+            </span>
+            <span
+                  className="Slider__brightness"
+            >
+                  Brightness
+            </span>
+            <div
+                  className="Slider__circle"
+            >
+                  <div
+                        className="Slider__knob"
+                        unselectable="on"
+                  />
+            </div>
+            <canvas
+                  className="Slider__progress"
+            />
+            <div
+                  className="Slider__inner-circle"
+            />
+      </figure>
+      <div
+            className="arrow-left"
+      />
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Slider
+    current={
+        Object {
+            "brightness": 0,
+          }
+    }
+/>,
+}
+`;

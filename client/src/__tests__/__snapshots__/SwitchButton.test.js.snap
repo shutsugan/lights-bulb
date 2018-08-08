@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchButton should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    className="SwitchButton "
+>
+    <input
+        checked={false}
+        className="SwitchButton__toggle"
+        id={3}
+        onChange={[Function]}
+        type="checkbox"
+    />
+    <span
+        className="SwitchButton__label"
+    >
+        on
+    </span>
+</label>,
+  "nodes": Array [
+    <label
+      className="SwitchButton "
+>
+      <input
+            checked={false}
+            className="SwitchButton__toggle"
+            id={3}
+            onChange={[Function]}
+            type="checkbox"
+      />
+      <span
+            className="SwitchButton__label"
+      >
+            on
+      </span>
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <SwitchButton
+      id={3}
+      state={false}
+/>,
+    "_instance": SwitchButton {
+      "_toggle": [Function],
+      "_update": [Function],
+      "context": Object {},
+      "props": Object {
+        "id": 3,
+        "state": false,
+      },
+      "refs": Object {},
+      "state": Object {
+        "state": false,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <label
+      className="SwitchButton "
+>
+      <input
+            checked={false}
+            className="SwitchButton__toggle"
+            id={3}
+            onChange={[Function]}
+            type="checkbox"
+      />
+      <span
+            className="SwitchButton__label"
+      >
+            on
+      </span>
+</label>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <SwitchButton
+    id={3}
+    state={false}
+/>,
+}
+`;

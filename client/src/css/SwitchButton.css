@@ -1,0 +1,126 @@
+.SwitchButton {
+  --uiSwitchSize: var(--switchSize, 64px);
+  --uiSwitchBgColor: var(--switchBgColor, #ddd);
+  --uiSwitchBgColorActive: var(--switchBgColorActive, #4ed164);
+  --uiSwitchBorderColorActive: var(--switchBorderColorActive, #fff);
+  --uiSwitchBorderColorFocus: var(--switchBgColorFocus, #43b556);
+  --uiSwitchButtonBgColor: var(--switchButtonBgColor, #fff);  
+  
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.SwitchButton__label {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+
+  font-size: .95em;
+  text-align: left;
+  color: #FFF;
+  padding: 0 3px;
+}
+
+.SwitchButton__toggle {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.SwitchButton__toggle:focus ~ .SwitchButton__label {
+  box-shadow: 0 0 0 var(--uiSwitchThickFocus, 1.5px) var(--uiSwitchBorderColorFocus);
+}
+
+.SwitchButton__toggle:checked:focus ~ .SwitchButton__label {
+  box-shadow: 0 0 0 var(--uiSwitchThickFocus, 1.5px) var(--uiSwitchBorderColorActive);
+}
+
+.SwitchButton__label:before, .SwitchButton__label:after {
+  content: "";
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.SwitchButton__label:before {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: var(--uiSwitchBgColor);
+}
+
+.SwitchButton__label:after{
+  top: 50%;
+  z-index: 3;
+  transition: transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
+}
+
+.SwitchButton {
+  --uiSwitchIndent: var(--switchIndent, 2px);
+  --uiSwitchBorderRadius: var(--switchBorderRadius, 60px);
+
+  width: var(--uiSwitchSize);
+  height: calc((var(--uiSwitchSize) / 2));
+  border-radius: var(--uiSwitchBorderRadius);    
+  background-color: var(--uiSwitchBgColorActive);
+}
+
+.SwitchButton__label {
+  border-radius: var(--uiSwitchBorderRadius);    
+}
+
+.SwitchButton__label:before {
+  border-radius: var(--uiSwitchBorderRadius);    
+  transition: opacity .2s ease-out .1s, transform .2s ease-out .1s;
+  transform: scale(1);
+  opacity: 1;  
+}
+
+.SwitchButton__toggle:checked ~ .SwitchButton__label:before {
+  transform: scale(0);
+  opacity: .7;
+}
+
+.SwitchButton__toggle ~ .SwitchButton__label:after {
+  width: calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2));
+  height: calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2));
+  transform: translate3d(var(--uiSwitchIndent), -50%, 0);
+
+  background-color: var(--uiSwitchButtonBgColor);
+  border-radius: 100%;
+}
+
+.SwitchButton__toggle:checked ~ .SwitchButton__label:after {
+  transform: translate3d(calc(var(--uiSwitchSize) - calc((var(--uiSwitchSize) / 2) - calc(var(--uiSwitchIndent) * 2)) - var(--uiSwitchIndent)), -50%, 0);
+}
+
+.SwitchButton {
+  --switchSize: 32px;
+  margin-top: 0px;
+  opacity: .4;
+  pointer-events: none;
+}
+
+.SwitchButton {
+  --switchBgColorActive: #4cb312;
+  --switchBgColorFocus: #317d06;
+}
+
+.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+a{
+  text-decoration: none;
+  color: #222;
+}

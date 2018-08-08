@@ -1,0 +1,46 @@
+.Profilebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 1px var(--secondary-color);
+    height: 50px;
+}
+
+.Profilebar__username {
+	padding: 0 8px;
+}
+
+.Profilebar__avatar {
+    min-width: 35px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.Profilebar__dropdown {
+	background: transparent;
+    color: #FFF;
+    border: none;
+}
+
+.Profilebar__dropdown:hover {
+	background: transparent;
+}
+
+.Profilebar__dropdown div {
+	color: #000;
+}
+
+@media screen and (max-width: 480px) {
+    .Profilebar__username {
+        display: none;
+    }
+
+    .Profilebar__avatar {
+        margin-left: 8px;
+    }
+}

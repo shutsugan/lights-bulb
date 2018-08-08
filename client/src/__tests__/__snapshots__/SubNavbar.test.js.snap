@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubNavbar should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="SubNavbar"
+>
+    <div
+        className="SubNavbar__button-container"
+    >
+        <WithTheme(Component)
+            className="SubNavbar__button--bg-color"
+            m={2}
+            square={true}
+        >
+            <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon="home"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                transform={null}
+            />
+        </WithTheme(Component)>
+        <WithTheme(Component)
+            className="SubNavbar__button--bg-color SubNavbar__button--width"
+        >
+            <FontAwesomeIcon
+                border={false}
+                className="SubNavbar__icon--margin"
+                fixedWidth={false}
+                flip={null}
+                icon="chevron-left"
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                transform={null}
+            />
+             Back
+        </WithTheme(Component)>
+    </div>
+    <FontAwesomeIcon
+        border={false}
+        className="SubNavbar__icon--margin"
+        fixedWidth={false}
+        flip={null}
+        icon="lightbulb"
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        transform={null}
+    />
+    <h3>
+        test title
+    </h3>
+    <p
+        className="SubNavbar__info"
+    >
+        Select a row to interact with it
+    </p>
+</div>,
+  "nodes": Array [
+    <div
+      className="SubNavbar"
+>
+      <div
+            className="SubNavbar__button-container"
+      >
+            <WithTheme(Component)
+                  className="SubNavbar__button--bg-color"
+                  m={2}
+                  square={true}
+            >
+                  <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon="home"
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                  />
+            </WithTheme(Component)>
+            <WithTheme(Component)
+                  className="SubNavbar__button--bg-color SubNavbar__button--width"
+            >
+                  <FontAwesomeIcon
+                        border={false}
+                        className="SubNavbar__icon--margin"
+                        fixedWidth={false}
+                        flip={null}
+                        icon="chevron-left"
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                  />
+                   Back
+            </WithTheme(Component)>
+      </div>
+      <FontAwesomeIcon
+            border={false}
+            className="SubNavbar__icon--margin"
+            fixedWidth={false}
+            flip={null}
+            icon="lightbulb"
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            transform={null}
+      />
+      <h3>
+            test title
+      </h3>
+      <p
+            className="SubNavbar__info"
+      >
+            Select a row to interact with it
+      </p>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <SubNavbar
+      title="test title"
+/>,
+    "_instance": null,
+    "_newState": null,
+    "_rendered": <div
+      className="SubNavbar"
+>
+      <div
+            className="SubNavbar__button-container"
+      >
+            <WithTheme(Component)
+                  className="SubNavbar__button--bg-color"
+                  m={2}
+                  square={true}
+            >
+                  <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon="home"
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                  />
+            </WithTheme(Component)>
+            <WithTheme(Component)
+                  className="SubNavbar__button--bg-color SubNavbar__button--width"
+            >
+                  <FontAwesomeIcon
+                        border={false}
+                        className="SubNavbar__icon--margin"
+                        fixedWidth={false}
+                        flip={null}
+                        icon="chevron-left"
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        symbol={false}
+                        transform={null}
+                  />
+                   Back
+            </WithTheme(Component)>
+      </div>
+      <FontAwesomeIcon
+            border={false}
+            className="SubNavbar__icon--margin"
+            fixedWidth={false}
+            flip={null}
+            icon="lightbulb"
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            symbol={false}
+            transform={null}
+      />
+      <h3>
+            test title
+      </h3>
+      <p
+            className="SubNavbar__info"
+      >
+            Select a row to interact with it
+      </p>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <SubNavbar
+    title="test title"
+/>,
+}
+`;

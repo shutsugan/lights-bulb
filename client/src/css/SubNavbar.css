@@ -1,0 +1,32 @@
+.SubNavbar {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.SubNavbar__button-container {
+	margin-right: 16px;
+}
+
+.SubNavbar__button--bg-color {
+	background: #ebeef3;
+}
+
+.SubNavbar__icon--margin {
+	margin-right: 8px;
+}
+
+.SubNavbar__button--width {
+	width: 80px;
+}
+
+.SubNavbar__info {
+	padding: 0 16px;
+	color: #AAA;
+	font-size: .8em;
+}
+
+h3 {
+	color: #3c3e42;
+}

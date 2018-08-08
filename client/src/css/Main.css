@@ -1,0 +1,16 @@
+.Main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	padding: 16px;
+	position: relative;
+}
+
+@media only screen and (max-width: 860px) {
+    .Main {
+		flex-flow: column-reverse;
+		min-width: 430px;
+	}
+}

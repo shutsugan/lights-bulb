@@ -1,0 +1,17 @@
+.MainTable {
+	flex: 1;
+	width: 60%;
+}
+
+.MainTable__row--active {
+	box-shadow: rgb(34, 151, 222) 3px 0px 0px inset;     
+	background-color: rgb(233, 244, 251);
+}
+
+@media only screen and (max-width: 860px) {
+    .MainTable {
+	    flex: 1 1;
+	    width: 100%;
+	    margin-bottom: 16px;
+	}
+}
