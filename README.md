@@ -27,11 +27,11 @@ to run client side tests run:
 
 Desktop screenshot:
 	
-![light-bubls screenshot](../blob/master/desktop.png)
+![light-bubls screenshot](../master/desktop.png)
 
 Mobile screenshot:
 	
-![light-bubls screenshot](../blob/master/mobile.png)
+![light-bubls screenshot](../master/mobile.png)
 
 ## Documentation
 
